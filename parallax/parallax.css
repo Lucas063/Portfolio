@@ -1,0 +1,287 @@
+.navbar {
+    margin-bottom:0;
+}
+
+body {
+    background:#21295C;
+    color:#f7f7f7;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Text color */
+article p {
+	color:white;
+}
+
+
+/* Navbar */
+
+.navbar-inverse {
+    background: #0E6BA8;
+    border:0;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color:#f7f7f7;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+    background: #BFD7EA;
+}
+
+
+.navbar-inverse .navbar-header .navbar-brand {
+    color:#f7f7f7;
+} 
+
+.navbar-inverse .navbar-header .navbar-brand:hover {
+    color:#66819C;
+} 
+
+.navbar-brand img{
+          display:inline;
+          width:25px;
+          height:25px;
+		  margin-bottom: 3px;
+      }
+
+/* Dropdown menu */
+.dropdown-menu {
+    background: #0E6BA8;
+    border-radius:0;
+    border:0;
+}
+
+.dropdown-menu li a {
+    padding:15px;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #087E8B;
+}
+
+.navbar-brand {
+	color:#f7f7f7;
+}
+
+
+
+/* Buttons */
+.btn-secondary {
+	color:#fff;
+    background-color:transparent;
+    border-color:white;
+    margin-bottom:5px;
+}
+
+.btn-secondary:hover {
+	color:black;
+    background-color: white;
+    border-color:white;
+}
+
+/* PARALLAX */
+
+
+.parallax_section {
+	height:600px;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position:100% auto;
+	position: relative
+}
+
+.parallax_image_first {
+	background-image: url(/parallax/images/image1.jpeg);
+}
+
+
+.parallax_image_second {
+	background-image: url(/parallax/images/image2.jpeg);
+}
+
+.parallax_image_third {
+	background-image: url(/parallax/images/image3.jpeg);
+}
+
+.container h1 {
+	font-size: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.content_block {
+	height:250px;
+	position:relative;
+	top:50%;
+	transform: translateY(38%);
+}
+
+
+/* arrow */
+
+.bounce {
+position: absolute;
+	left:46%;
+	bottom:-55%;
+	
+}
+
+/* Down Arrow Bounce */
+
+  .bounce {
+    left:50%;
+    background-size: 50px;
+    -webkit-animation:bounce 1.75s infinite;
+    -moz-animation:bounce 1.75s infinite;
+    -o-animation:bounce 1.75s infinite;
+    animation:bounce 1.75s infinite;
+    margin-top:-25px;
+    margin-left:-25px;
+    bottom:0;
+    height:50px;
+    width:50px;
+    z-index: 1;
+}
+  
+  @-webkit-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @-moz-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @-o-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30p;}
+  }
+
+/* FOOTER */
+
+/* footer {
+	background-color:#0E6BA8;
+} */
+
+
+
+aside p a {
+	color:white;
+	padding:5px;
+}
+
+aside p a:hover {
+	background-color:#BFD7EA;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:990px) {
+	.row {
+		display: inline;
+	}
+	.col-md-4 {
+		margin:0 !important;
+		width:160px !important;
+		float:left;
+		padding-left:100px;
+		padding-top:10px;
+		text-align: center;
+	}
+
+.artrow {
+	height:250px;
+}	
+
+.artrow h5{
+	padding-left:50px;
+}	
+	
+}
+
+@media screen and (max-width:765px) {
+
+aside p a {
+	display:none;
+}
+
+	footer p {
+		text-align: right;
+	}	
+
+	.col-md-4 img {
+	max-width:100%;	
+}
+	
+.artrow {
+height:20w0px;
+}
+	
+}
+
+@media screen and (max-width:660px) {
+.content_block {
+	max-width:100%;
+	height:250px;
+	position:relative;
+	top:50%;
+	transform: translateY(32%);
+}
+	
+	.artrow {
+height:150px;
+}
+
+}
+
+@media screen and (max-width:411px) {
+.content_block {
+	max-width:100%;
+	height:250px;
+	position:relative;
+	top:50%;
+	transform: translateY(18%);
+}
+.artrow {
+height:100px;
+}
+	
+	
+}
+
+/* ROW */
+
+.artrow {
+	max-width:100%;
+	transform: translateY(-45%);
+	text-align: center;
+}
+
+
+.col-md-4 img {
+	max-width:55%;
+	background-color:#ffffff;
+	
+}

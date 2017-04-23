@@ -1,0 +1,93 @@
+body {
+    background:#21295C;
+    color:#f7f7f7;
+    font-family: 'Lato', sans-serif;
+    padding-bottom:70px;
+}
+
+
+/* navbar */
+.navbar-inverse {
+    background: #0E6BA8;
+    border:0;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color:#f7f7f7;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+    background: #BFD7EA;
+}
+
+
+.navbar-inverse .navbar-header .navbar-brand {
+    color:#f7f7f7;
+} 
+
+.navbar-inverse .navbar-header .navbar-brand:hover {
+    color:#66819C;
+} 
+
+.navbar-brand img{
+          display:inline;
+          width:25px;
+          height:25px;
+		  margin-bottom: 3px;
+      }
+
+/* Dropdown menu */
+.dropdown-menu {
+    background: #0E6BA8;
+    border-radius:0;
+    border:0;
+}
+
+.dropdown-menu li a {
+    padding:15px;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #087E8B;
+}
+
+.navbar-brand {
+	color:#f7f7f7;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+
+/* footer */
+footer {
+	color:white;
+	position: relative;
+	top:100px;
+}
